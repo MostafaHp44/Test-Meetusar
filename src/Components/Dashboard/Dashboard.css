@@ -1,0 +1,97 @@
+.MainDashboard
+{
+    display: grid;
+    
+
+}
+.VerticalLine
+{
+    background-color: #ffff;
+    display: grid;
+    width: 20px;
+    height: 100%;
+    padding: 5em;
+
+}
+.HorizintalLine
+{
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+}
+.SecPart
+{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.Inform,
+.Chat,
+.Notification
+{
+background-color: #ebebeb;
+border-radius: 25px;
+border: 1px solid #F69666;
+}
+.ScanQrCode
+{
+    background-color: #4E0A93 ; 
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+}
+.Upgarde
+{
+    background-color: #FF5400 ; 
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+}
+
+.ME,
+.app,
+.user,
+.Instruction,
+.Lock,
+.MainChat
+{
+    border: none;
+    background-color: #ffff;
+    padding: 11px;
+}
+button
+{
+    cursor: pointer;
+}
+.LogoMeetdashboard
+{
+    display: block;
+    content: "";
+    width: 100%;
+    padding: 5px;
+    border-top: 1px solid #999;
+
+    
+
+}
+.Meetuslogodashboard
+{
+    width: 50%;
+    padding-top: 20px    ;
+}
